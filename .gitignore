@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Word/Office temporary files
+~$*.docx
+~$*.doc
+
+# CIRSense dataset and generated experiment outputs
+cirsense_python/cirsense-dataset-real-world-80211ax-csi-measurements-wireless-sensing/
+cirsense_python/outputs/
+cirsense_python/output_test/
+
+# Heavy generated arrays/caches
+*.npz
+*.npy
+*.mat
+
+# Local reports can be shared separately from the code repository.
+*.docx
+*.doc
+*.pdf
+Wi-Fi非接触式感知课程-*/
+
+!cirsense_python/report_assets/*.png
+!cirsense_python/report_assets/*.md
